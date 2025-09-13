@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#7c3aed" />
+    <meta name="description" content="Master Networking in One Day - Live intensive workshop with Vimal Daga. Learn core networking concepts, IP addressing, NAT, and real-world troubleshooting." />
+    <meta name="keywords" content="networking, workshop, LinuxWorld, Vimal Daga, IP addressing, NAT, troubleshooting" />
+    <meta name="author" content="LinuxWorld" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Master Networking in One Day - LinuxWorld Workshop" />
+    <meta property="og:description" content="Live intensive workshop with Vimal Daga. Master core networking concepts in just one day." />
+    <meta property="og:image" content="/images/networking.jpeg" />
+    <meta property="og:url" content="https://linuxworld.networking-workshop.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Master Networking in One Day - LinuxWorld Workshop" />
+    <meta name="twitter:description" content="Live intensive workshop with Vimal Daga. Master core networking concepts in just one day." />
+    <meta name="twitter:image" content="/images/networking.jpeg" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-192x192.png" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Master Networking in One Day",
+      "description": "Live intensive workshop with Vimal Daga covering core networking concepts, IP addressing, NAT, and real-world troubleshooting.",
+      "startDate": "2025-09-20T14:00:00+05:30",
+      "endDate": "2025-09-20T19:00:00+05:30",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://linuxworld.networking-workshop.com"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "LinuxWorld",
+        "url": "https://linuxworld.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "1499",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+    
+    <title>Master Networking in One Day - LinuxWorld Workshop</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
