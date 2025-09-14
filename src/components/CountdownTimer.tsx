@@ -51,7 +51,7 @@ const CountdownTimer: React.FC = () => {
           <Sparkles className="w-3 h-3 text-yellow-400 absolute -top-1 -right-1 animate-spin" />
         </div>
         <span className="text-lg font-bold tracking-wide drop-shadow-md bg-gradient-to-r from-white to-violet-200 bg-clip-text text-transparent">
-          WORKSHOP STARTS IN
+          TRAINING STARTS IN
         </span>
       </div>
       

@@ -106,7 +106,7 @@ const MentorSection: React.FC = () => {
             </p>
             
             <a href="https://rzp.io/rzp/epawaY9" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold py-3 px-7 rounded-xl text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/25">
-              Join the Workshop Now
+              Join the Training Now
             </a>
           </div>
         </div>

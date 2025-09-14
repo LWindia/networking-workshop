@@ -80,8 +80,8 @@ const StickyRegisterButton: React.FC = () => {
                   <Clock className="w-4 h-4 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold">Workshop Schedule</div>
-                  <div className="text-sm text-slate-500">Sept 20–21 • 2.5 hours each day</div>
+                  <div className="font-semibold">Training Schedule</div>
+                  <div className="text-sm text-slate-500">Sept 20–21 • 3 hours each day</div>
                 </div>
               </div>
 
@@ -91,7 +91,7 @@ const StickyRegisterButton: React.FC = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Pricing</div>
-                  <div className="text-sm text-slate-500">₹499 + taxes (Cut price ₹4,999)</div>
+                  <div className="text-sm text-slate-500">₹699 + taxes (Cut price ₹4,999)</div>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ const StickyRegisterButton: React.FC = () => {
               className="w-full bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-500 hover:to-purple-500 text-white font-bold py-3 px-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-violet-500/25 flex items-center justify-center space-x-2"
             >
               <CreditCard className="w-5 h-5" />
-              <span>Register Now - ₹499 + taxes</span>
+              <span>Register Now - ₹699 + taxes</span>
             </a>
           </div>
         )}

@@ -1,7 +1,7 @@
 ﻿{
-  "name": "LinuxWorld Networking Workshop",
+  "name": "LinuxWorld Networking Training",
   "short_name": "LW Networking",
-  "description": "Master Networking in One Day - Live intensive workshop with Vimal Daga",
+  "description": "Master Networking over 2 Days - Live intensive training with Vimal Daga",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",

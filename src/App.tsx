@@ -7,7 +7,6 @@ const HeroSection = lazy(() => import('./components/HeroSection'));
 const MentorSection = lazy(() => import('./components/MentorSection'));
 const CourseContent = lazy(() => import('./components/CourseContent'));
 const WorkshopHighlights = lazy(() => import('./components/WorkshopHighlights'));
-const WhyJoinSection = lazy(() => import('./components/WhyJoinSection'));
 const RegistrationSection = lazy(() => import('./components/RegistrationSection'));
 const Footer = lazy(() => import('./components/Footer'));
 const StickyRegisterButton = lazy(() => import('./components/StickyRegisterButton'));
@@ -25,9 +24,6 @@ function App() {
         </div>
         <div id="course">
           <CourseContent />
-        </div>
-        <div id="benefits">
-          <WhyJoinSection />
         </div>
         <div id="mentor">
           <MentorSection />

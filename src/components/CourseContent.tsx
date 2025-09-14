@@ -60,7 +60,7 @@ const CourseContent: React.FC = () => {
   const features = [
     {
       icon: Clock,
-      title: "2.5 Hours Each Day",
+      title: "3 Hours Each Day",
       description: "Balanced 2-day format for better retention"
     },
     {
@@ -150,7 +150,7 @@ const CourseContent: React.FC = () => {
           {/* Course Features */}
           <div className="bg-gradient-to-r from-violet-600/10 to-purple-600/10 border border-violet-500/20 rounded-3xl p-8 md:p-12">
             <div className="text-center mb-12">
-              <h3 className="text-3xl font-bold text-white mb-4">Workshop Highlights</h3>
+              <h3 className="text-3xl font-bold text-white mb-4">Training Highlights</h3>
               <p className="text-white/60 text-lg">Everything you need for networking mastery</p>
             </div>
 

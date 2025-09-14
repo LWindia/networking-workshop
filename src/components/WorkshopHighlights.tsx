@@ -10,7 +10,7 @@ const WorkshopHighlights: React.FC = () => {
     {
       id: 'intensive',
       title: '2-Day Intensive',
-      description: 'Focused learning: 2.5 hours each day covering essential networking concepts',
+      description: 'Focused learning: 3 hours each day covering essential networking concepts',
       icon: 'clock'
     },
     {
@@ -54,7 +54,7 @@ const WorkshopHighlights: React.FC = () => {
           <div className="text-center mb-20">
             <div className="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
               <Zap className="w-4 h-4 text-emerald-400" />
-              <span className="text-emerald-300 text-sm font-medium tracking-wide">WORKSHOP HIGHLIGHTS</span>
+              <span className="text-emerald-300 text-sm font-medium tracking-wide">TRAINING HIGHLIGHTS</span>
             </div>
             <h2 className="text-4xl md:text-6xl font-black text-white mb-6">
               What Makes This <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">Special</span>

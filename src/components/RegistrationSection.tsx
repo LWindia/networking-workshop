@@ -41,7 +41,11 @@ const RegistrationSection: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
               <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/15 bg-white/10 text-white/90">
                 <Clock className="w-5 h-5 text-violet-300" />
-                <span>Sept 20–21 • 2.5 hours each day</span>
+                <span>Sept 20–21 • 3 hours each day</span>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/15 bg-white/10 text-white/90">
+                <Clock className="w-5 h-5 text-violet-300" />
+                <span>Total Duration: 6 hours</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/15 bg-white/10 text-white/90">
                 <Shield className="w-5 h-5 text-violet-300" />
@@ -51,10 +55,10 @@ const RegistrationSection: React.FC = () => {
 
             {/* Pricing */}
             <div className="mb-8">
-              <div className="text-white/60 text-lg mb-3">Workshop Fee</div>
+              <div className="text-white/60 text-lg mb-3">Training Fee</div>
               <div className="flex items-end justify-center gap-3 mb-3">
                 <span className="text-white/40 text-2xl line-through">₹4,999</span>
-                <span className="text-5xl md:text-6xl font-black text-white">₹499</span>
+                <span className="text-5xl md:text-6xl font-black text-white">₹699</span>
                 <span className="text-white/70 mb-1">+ taxes</span>
               </div>
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-400/20 font-semibold">Special Pricing</div>
@@ -68,7 +72,7 @@ const RegistrationSection: React.FC = () => {
               className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-500 hover:to-purple-500 text-white font-bold py-4 px-10 rounded-2xl text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-violet-500/25"
             >
               <CreditCard className="w-5 h-5" />
-              <span>Proceed to Payment - ₹499 + taxes</span>
+              <span>Proceed to Payment - ₹699 + taxes</span>
             </a>
           </div>
         </div>
