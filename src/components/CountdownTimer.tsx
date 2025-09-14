@@ -44,7 +44,7 @@ const CountdownTimer: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center space-y-6">
+    <div className="flex flex-col items-center space-y-6 px-4">
       <div className="flex items-center space-x-3 text-white">
         <div className="relative">
           <Timer className="w-6 h-6 text-violet-300 animate-pulse" />
@@ -55,21 +55,21 @@ const CountdownTimer: React.FC = () => {
         </span>
       </div>
       
-      <div className="flex items-center space-x-4">
-        {[
+      <div className="grid grid-cols-2 gap-3 sm:flex sm:items-center sm:space-x-4">
+        {[ 
           { label: "Days", value: timeLeft.days, color: "from-violet-500 to-purple-500" },
           { label: "Hours", value: timeLeft.hours, color: "from-purple-500 to-indigo-500" },
           { label: "Minutes", value: timeLeft.minutes, color: "from-indigo-500 to-blue-500" },
           { label: "Seconds", value: timeLeft.seconds, color: "from-blue-500 to-cyan-500" }
         ].map((unit, index) => (
           <div key={unit.label} className="text-center group">
-            <div className={`bg-gradient-to-br ${unit.color} backdrop-blur-md border border-white/30 rounded-2xl p-6 min-w-[100px] shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:-translate-y-2 relative overflow-hidden`}>
+            <div className={`bg-gradient-to-br ${unit.color} backdrop-blur-md border border-white/30 rounded-2xl p-4 sm:p-6 min-w-[84px] sm:min-w-[100px] shadow-2xl sm:hover:shadow-3xl transition-all duration-500 sm:hover:scale-110 sm:hover:-translate-y-2 relative overflow-hidden`}>
               {/* Animated background */}
               <div className="absolute inset-0 bg-gradient-to-r from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               
               {/* Content */}
               <div className="relative z-10">
-                <div className="text-3xl md:text-4xl font-black text-white mb-2 drop-shadow-lg animate-count-up">
+                <div className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-2 drop-shadow-lg animate-count-up">
                   {unit.value.toString().padStart(2, "0")}
                 </div>
                 <div className="text-xs text-white/90 font-bold tracking-wider uppercase drop-shadow-sm">

@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <section 
-      className="relative h-screen w-full flex flex-col overflow-hidden"
+      className="relative min-h-[100svh] md:min-h-screen w-full flex flex-col overflow-visible"
       style={{
         backgroundImage: "url(/images/networking.jpeg)",
         backgroundSize: "cover",
@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
             <div className="flex items-center space-x-3">
               <a href="#home" className="flex items-center space-x-3">
                 <img src="/images/LW@4x1.png" alt="LinuxWorld" className="h-8 md:h-9 w-auto object-contain" />
-                <span className="text-white font-bold text-lg font-display">LinuxWorld</span>
+                <span className="hidden sm:inline-block text-white font-bold text-lg font-display">LinuxWorld</span>
               </a>
             </div>
             
@@ -105,7 +105,7 @@ const HeroSection: React.FC = () => {
       <div className="relative z-10 flex-1 flex items-center justify-center px-6 pt-16">
         <div className="text-center w-full max-w-7xl mx-auto">
           {/* Enhanced Main Headline with better typography */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[0.85] tracking-tight drop-shadow-2xl px-4 animate-fade-in-up">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-[0.9] md:leading-[0.85] tracking-tight drop-shadow-2xl px-4 animate-fade-in-up">
             <span className="block font-display">Master</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-violet-300 via-purple-300 to-indigo-300 drop-shadow-lg whitespace-nowrap font-display animate-gradient-x">
               Networking
@@ -116,7 +116,7 @@ const HeroSection: React.FC = () => {
           </h1>
 
           {/* Enhanced Subtitle with better contrast */}
-          <p className="text-xl md:text-2xl text-white mb-6 max-w-4xl mx-auto leading-relaxed font-light drop-shadow-lg px-4 animate-fade-in-up animation-delay-200">
+          <p className="text-lg md:text-2xl text-white mb-6 max-w-4xl mx-auto leading-relaxed font-light drop-shadow-lg px-4 animate-fade-in-up animation-delay-200">
             Live intensive workshop with <span className="text-violet-200 font-semibold bg-violet-900/40 px-3 py-1.5 rounded-lg border border-violet-400/30 backdrop-blur-sm">Vimal Daga</span>
           </p>
           <p className="text-lg md:text-xl text-white/95 mb-10 max-w-3xl mx-auto drop-shadow-md px-4 animate-fade-in-up animation-delay-400">
@@ -144,7 +144,7 @@ const HeroSection: React.FC = () => {
           </div>
 
           {/* Enhanced Countdown Timer */}
-          <div className="mb-10 px-4 animate-fade-in-up animation-delay-800">
+          <div className="mb-10 px-4 animate-fade-in-up animation-delay-800 scale-95 md:scale-100">
             <CountdownTimer />
           </div>
 
