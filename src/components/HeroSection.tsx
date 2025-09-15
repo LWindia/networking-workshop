@@ -112,7 +112,7 @@ const HeroSection: React.FC = () => {
 
           {/* Enhanced Subtitle with better contrast */}
           <p className="text-lg md:text-2xl text-white mb-6 max-w-4xl mx-auto leading-relaxed font-light drop-shadow-lg px-4 animate-fade-in-up animation-delay-200">
-            Live intensive training with <span className="text-violet-200 font-semibold bg-violet-900/40 px-3 py-1.5 rounded-lg border border-violet-400/30 backdrop-blur-sm">Vimal Daga</span>
+            Live intensive training with <span className="text-violet-200 font-semibold bg-violet-900/40 px-3 py-1.5 rounded-lg border border-violet-400/30 backdrop-blur-sm whitespace-nowrap sm:whitespace-normal">Vimal Daga</span>
           </p>
           <p className="text-lg md:text-xl text-white/95 mb-10 max-w-3xl mx-auto drop-shadow-md px-4 animate-fade-in-up animation-delay-400">
             Master core networking concepts, IP addressing, NAT, and real-world troubleshooting 
