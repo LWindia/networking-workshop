@@ -9,51 +9,85 @@ const CourseContent: React.FC = () => {
   const modules = [
     {
       id: 1,
-      title: "Networking Fundamentals",
+      title: "Networking Fundamentals & Core Concepts",
       topics: [
-        "OSI Model Deep Dive",
-        "TCP/IP Protocol Suite",
-        "Network Topologies",
-        "Ethernet Standards"
+        "What is Networking?",
+        "Importance of Networking in Real-World Scenarios",
+        "OSI & TCP/IP Models – Layers Explained",
+        "Basic Networking Terminologies (Node, Host, Switch, Router, Gateway, etc.)",
+        "IP Addressing Fundamentals (IPv4 & IPv6)",
+        "Subnetting & Supernetting (CIDR Notation)",
+        "Private vs Public IPs",
+        "DNS, DHCP, and Default Gateway",
+        "Routing Basics (Static vs Dynamic Routing)",
+        "Switching Concepts (Layer 2 vs Layer 3 Switching)"
       ],
       icon: Network,
       color: "from-blue-500 to-cyan-500"
     },
     {
       id: 2,
-      title: "IP Addressing & Subnetting",
+      title: "Types of IP & Addressing",
       topics: [
-        "IPv4 Address Structure",
-        "Subnet Masks & CIDR",
-        "Subnetting Techniques",
-        "VLSM (Variable Length Subnet Masking)"
+        "Static IP vs Dynamic IP",
+        "Private IP vs Public IP",
+        "Loopback IP (127.0.0.1)",
+        "APIPA (Automatic Private IP Addressing – 169.254.x.x)",
+        "Unicast, Broadcast, and Multicast IPs",
+        "Reserved IP Addresses & Their Uses"
       ],
       icon: Code,
       color: "from-violet-500 to-purple-500"
     },
     {
       id: 3,
-      title: "Routing & Switching",
+      title: "Ports & Port Forwarding",
       topics: [
-        "Static vs Dynamic Routing",
-        "Routing Protocols (RIP, OSPF, BGP)",
-        "Switch Configuration",
-        "VLAN Implementation"
+        "Understanding Ports & Protocols (TCP/UDP)",
+        "Common Ports & Services (HTTP, HTTPS, SSH, FTP, DNS, etc.)",
+        "Ephemeral Ports & Dynamic Port Ranges",
+        "Port Forwarding – Concept & Use Cases",
+        "Configuring Port Forwarding in Routers / Firewalls",
+        "Security Considerations in Port Forwarding"
       ],
       icon: Database,
       color: "from-emerald-500 to-teal-500"
     },
     {
       id: 4,
-      title: "NAT & Security",
+      title: "NAT & Its Variants",
       topics: [
-        "Network Address Translation",
-        "Firewall Configuration",
-        "VPN Implementation",
-        "Network Security Best Practices"
+        "Why NAT is Needed?",
+        "How NAT Works?",
+        "Types of NAT:",
+        "Static NAT (One-to-One Mapping)",
+        "Dynamic NAT (Pool of IPs)",
+        "PAT / Overloading (Many-to-One)",
+        "Benefits & Limitations of NAT",
+        "Concept of SNAT (Source NAT) – Outbound Traffic",
+        "Concept of DNAT (Destination NAT) – Inbound Traffic",
+        "Use Cases of SNAT & DNAT in Real-Life Networking",
+        "SNAT/DNAT in Networking"
       ],
       icon: Shield,
       color: "from-orange-500 to-red-500"
+    },
+    {
+      id: 5,
+      title: "Hands-On, Troubleshooting & Project",
+      topics: [
+        "Assigning Static & Dynamic IPs on a System",
+        "Subnetting Exercises",
+        "Configuring Port Forwarding in a Router / Firewall",
+        "Implementing NAT & PAT in a Lab Environment",
+        "Setting up SNAT & DNAT Rules (Linux iptables )",
+        "VPNs & Tunneling Basics",
+        "Firewall Rules & ACLs",
+        "Network Troubleshooting Tools (ping, traceroute, netstat, telnet, nc, etc.)",
+        "Best Practices in Networking"
+      ],
+      icon: BookOpen,
+      color: "from-pink-500 to-rose-500"
     }
   ];
 
